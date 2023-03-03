@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="./images/logo/logo.ico" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Home | Website</title>
+    <style>
+      @keyframes spinning {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .spin {
+        animation-name: spinning;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        animation-timing-function: linear;
+      }
+    </style>
+  </head>
+  <body style="display: grid; place-items: center; height: 100vh">
+    <section>
+      <div>
+        <h1
+          style="
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: xx-large;
+            font-weight: 600;
+          "
+        >
+          Header, Welcome
+        </h1>
+        <h3
+          style="
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: x-large;
+            font-weight: 600;
+          "
+        >
+          Website starter...
+        </h3>
+        <img
+          src="./images/logo/logo.png"
+          alt="website logo"
+          class="spin"
+          style="height: 300px"
+        />
+      </div>
+    </section>
+  </body>
+</html>

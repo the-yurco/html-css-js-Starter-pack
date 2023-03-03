@@ -1,0 +1,69 @@
+* {
+  outline: none;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  &::after {
+    margin: 0;
+    padding: 0;
+  }
+
+  &::before {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  background-color: $bg;
+  color: white;
+}
+
+a {
+  transition: all 0.4s ease-in-out;
+  // color: $body-color;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+a.link {
+  color: $l-muted;
+}
+
+a.link:focus,
+a.link:hover {
+  color: $info;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 500;
+}
