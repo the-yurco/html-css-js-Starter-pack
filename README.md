@@ -2,13 +2,6 @@
 
 This is a starter pack for web development, containing all the necessary dependencies and files to get started quickly. The starter pack includes HTML, SCSS, and JavaScript files, along with all the required dependencies.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation
 
 To install this project, follow these steps:
